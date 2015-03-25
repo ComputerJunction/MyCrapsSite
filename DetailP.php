@@ -3,7 +3,7 @@
 ?>
 
 <table>
-    <th>Edge</th>
+    <th>EdgeOn all numbers</th>
     <tr>
         <td>Some Number</td>
     </tr>
