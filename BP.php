@@ -4,7 +4,7 @@
 <article>
     <h2>Types of Bets</h2>
     <section>This is the basic information page with stable data about dice and the game of craps.
-In this section I should list
+In this section I should list all the possible bets you can make
    
 <ul>
     <li><h3>Multiple Roll Bets</h3></li>
