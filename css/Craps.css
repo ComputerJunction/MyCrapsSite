@@ -1,26 +1,6 @@
-
-body{
-    
-}
-caption {
-    caption-side: top;
-}
-figcaption{
-    clear: both;
-    text-align: center;
-}
-footer{
-    padding-top: 7px;
-    font-family: monospace;
-    font-family: serif;
-    clear: both;
-}
-
-html{
-    background: rgb(200,200,200);
-}
 h1{
-    font-family: georgia;
+    font-size: 2.5em;
+    font-family: Century Gothic;
 }
 h2{
     font-family: fantasy;
@@ -32,8 +12,10 @@ h3{
 h4{
     font-family: cursive;
 }
-ul > ul{
-    display: inline;
+footer{
+    font-family: monospace;
+    font-family: serif;
+    font-size: 1.2em;
 }
 mediaquery
 
@@ -42,38 +24,21 @@ nav li{
 }
 
 nav a{
-    text-decoration: none;
-    color: rgb(0,0,0);
-    font-size: 1.25em;
+    text-decoration:underline;
+    color: rgb(1,1,1);
+    font-size: 1.55em;
+    text-align: center;    
+    font-family: Big Caslon;
 }
 section{
     font-family: serif;
     font-size: 1.5em;
-    padding: 2px 2px 2px 2px;
-    word-spacing: .2em;
-    text-indent: 20px;
 }
-
-table{
-    float:left;
-    max-width: 35%;
-    width: 35%;  
+table thead, tbody, tfoot{
+    font-size: .5em;
 }
 table caption{
     font-size: 1.5em;
 }
-table tfoot{
-    font-size: small;
-}
 
-/*------Shared-------*/
-table caption, tfoot {
-        text-align: center;
-    vertical-align: middle;  
-}
-article, header, nav li{
-    display: inline-block;
-}
-article, footer, img{
-    margin-left: 5%;
-}
+

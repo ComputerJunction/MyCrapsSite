@@ -1,13 +1,12 @@
 <?php include("inc/Header.php") ?>
 
-<article>
-    
-    <h2>Welcome to my website about craps.  Steps</h2>
-        
-    <figure>
-            <img id="indexpic" alt="Pair of Red Dice Showing Three and Four, a Seven"src="http://www.wompadan.com/character-animation/images/craps-table.jpg" src="im/Dice.png">
-            <figcaption>Picture from www.wompadan.com</figcaption>
+<article class="tbmar brdrad shdw pad">
+    <figure class="figwid">
+            <img class="imgwid imgbrd" alt="Pair of Red Dice Showing Three and Four, a Seven"src="http://www.wompadan.com/character-animation/images/craps-table.jpg" src="im/Dice.png">
+            <figcaption class="dicefig">Picture from www.wompadan.com</figcaption>
     </figure>
+    
+    <h2>Welcome to my website about craps.</h2>
        
     <section>It is a site detailing the current knowledge about the game, theories, ramblings, and all stuff because there is no reason to stop.</section>
     

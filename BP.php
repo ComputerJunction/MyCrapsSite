@@ -1,7 +1,7 @@
 <?php include ("inc/Header.php") ?>
 
 
-<article>
+<article class="brdrad tbmar pad shdw">
     <h2>Types of Bets</h2>
     <section>This is the basic information page with stable data about dice and the game of craps.
 In this section I should list
@@ -41,6 +41,13 @@ In this section I should list
                 
 All this should be presented from a SQL database with the use of php so I can change it add to it or subtract from it easily.  These same numbers was will be used in the table page to perform calculations like repeated rolls, estimated expected value of multiple bets - for multiple rolls - with some simulation of actual rolls.  I might even create defintion list for terms used like probability, expected value and even six/eight
 </section>
+    <menu type="context" id="dropdown-menu">
+        <command>
+            Hello
+        </command>
+        <menuitem label="Action">
+    </menu>
+    
 </article>
 
 
