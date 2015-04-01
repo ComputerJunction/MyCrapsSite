@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="css/Dropmenu.css">
     <link rel="stylesheet" href="css/Normalize.css">
     <link rel="stylesheet" href="css/Craps.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -16,7 +17,7 @@
 <nav>
     <a href='IndexP.php'>Why create this site?</a>
     <a href='TableP.php'>Table Page</a>
-    <a href='BP.php'>Basic Information Page</a>
-    <a href='#'>Blog Page</a>
+    <a href='Basic.php'>Basic Information Page</a>
+    <a href='DetailP.php'>Detail Page</a>
 </nav>
 </header>

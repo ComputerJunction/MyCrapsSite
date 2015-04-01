@@ -23,13 +23,6 @@ nav li{
     list-style-type:none;
 }
 
-nav a{
-    text-decoration:underline;
-    color: rgb(1,1,1);
-    font-size: 1.55em;
-    text-align: center;    
-    font-family: Big Caslon;
-}
 section{
     font-family: serif;
     font-size: 1.5em;
@@ -40,5 +33,10 @@ table thead, tbody, tfoot{
 table caption{
     font-size: 1.5em;
 }
-
+.tabimg{
+    background-image: url("../im/Pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 

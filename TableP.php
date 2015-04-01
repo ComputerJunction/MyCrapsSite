@@ -1,40 +1,60 @@
 <?php include("inc/Header.php") ?>
 
-    <table class="ctablinf">
-        <caption>Craps Information</caption>
+<!--    <table class="ctabtab">
+        <caption>Betting Information</caption>
  
         <thead>
         <tr>
-            <th>Possible Numbers</th>
-            <th>Expected Value....</th>
-            <th>Something Not Expected Value</th>
-            <th>Something Else</th>
-            <th>Possible Numbers</th>
-            <th>Expected Value....</th>
-            <th>Something Not Expected Value</th>
-            <th>Something Else</th>
+            <th>Type of Bet</th>
+            <th>Results of Roll</th>
+            <th>Expected Value</th>
+            <th>Odds No:Yes</th>
+            <th>Payout</th>
         </tr>
         </thead>
+        
         <tfoot>
             <tr>
-                <th colspan="100%">Working towards perfection is an admirable goal, but only a goal never a realistic destination.  If you see a problem with the numbers or something that looks funky let me know</th>
-                
+                <td colspan="100%">Working towards perfection is an admirable goal, but only a goal never a realistic destination.  If you see a problem with the numbers or something that looks funky let me know            </td>        
             </tr>
         </tfoot>
+        
         <tbody>
         <tr>
-            <th>Numbers like six and eight</th>
-            <td headers="Expected Value">Some Expected Value</td>
-            <td headers="Something Not EV">Something not Expected Value and repeat</td>
+            <td headers="Type of Bet">Type of Bets: Place</td>
+            <td headers="Results of Roll">Number clicked: 8</td>
+            <td headers="Expected Value">Expected Value: 96cents</td>
+            <td headers="Odds">Odds: 7 : 1</td>
+            <td headers="Payout">Payout: 1.16 : 1</td>
         </tr>
         </tbody>
         
-    </table>
-    <figure class="ctabfig">
-        <figcaption class="ctabfigcap">Craps Table with Hover, Click Capabilities</figcaption>
-        <img class="imgwid ctabimg" src="im/Pic.png" alt="Craps Table with Various Bets">
+    </table>-->
+    <table class="ctabfig tabimg">
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
         
-    </figure>
+    </table>
 
 
 <?php include("inc/Footer.php") ?>
