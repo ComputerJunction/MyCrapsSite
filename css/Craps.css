@@ -29,14 +29,75 @@ section{
 }
 table thead, tbody, tfoot{
     font-size: .5em;
+    -webkit-perspective: 200px;
 }
 table caption{
     font-size: 1.5em;
 }
-.tabimg{
-    background-image: url("../im/Pic.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+td{
+    width:75px;    
 }
 
+.ctab{
+    max-width: 100%;
+    max-height: 99%;
+    width:1000px;
+    height:500px;
+    margin:0 0 0 0;
+    
+}
+               /* Shared */
+
+              /* Shared */
+.dicefig{
+    clear: both;
+    text-align: center;
+}
+.frrow{
+    height: 140px;
+    width: 100%;
+    margin-top: 5px;
+}
+.frrow > td{
+    width: 99px;
+}
+.tabimg{
+    background: url("../im/Pic.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.slidein{
+    font-size: 0; /* Set to zero to disappear */
+    background: transparent;
+    cursor: crosshair;
+}
+
+.slidein:hover{
+    font-size: large;
+    
+    background: transparent;
+    -webkit-transform: rotateX(2deg) rotateY(5deg) rotateZ(10deg);
+    -webkit-transform-origin: center right;
+    -webkit-transition-delay: 1ms;
+    -webkit-transition-duration:1s;
+    -webkit-transition-timing-function:linear;
+    -webkit-transition-property: 'Grow'
+
+}
+@-webkit-keyframes Grow {
+    from {
+        font-size: xx-small;
+        top: 10%;
+        
+    }
+
+    to {
+        font-size: x-large;
+        top: 50%;
+        width: 45%;
+        height: 100px;
+        
+      
+    }
+}

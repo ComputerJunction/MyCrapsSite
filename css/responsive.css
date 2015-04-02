@@ -67,24 +67,7 @@ figure, img{
 .brdrad{
     border-radius:45px;
 }
-.ctabfig{
-    max-width: 100%;
-    max-height: 95%;
-    width:100%;
-    height: 90%;
-    margin:0 0 0 0;
-    
-}
-.ctabtab{
-    padding: 2% 2% 2% 2%;
-    background: rgb(296,296,296);
-    width: 100%; 
-}
 
-.dicefig{
-    clear: both;
-    text-align: center;
-}
 .figwid{
     max-width: 55%;
     float: right;
@@ -97,6 +80,11 @@ figure, img{
     border-bottom-right-radius: 5%;
     border-top-left-radius:8%;
     border-bottom-left-radius:8% ;
+}
+.imgwid {
+    max-width: 100%;
+    padding: 0 0 1% 0;
+    float:left;
 }
 .lrmar{
     margin-left: 15%;
